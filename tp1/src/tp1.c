@@ -60,8 +60,8 @@ int main()
                 rSuma = suma(num1, num2);
                 rResta = resta(num1, num2);
                 rMultiplicacion = multiplicacion(num1, num2);
-                rFactorial1 = factorialRecursivo(num1);
-                rFactorial2 = factorialRecursivo(num2);
+                rFactorial1 = factorial(num1);
+                rFactorial2 = factorial(num2);
                 if (division(num1, num2, &rDivision) == 0 || rFactorial1 == 0 || rFactorial2 == 0)
                 {
                     printf("Algunos calculos no se pudieron realizar.\n\n");

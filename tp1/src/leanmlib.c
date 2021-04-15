@@ -112,18 +112,23 @@ int division(int dividendo, int divisor, float *pResultado)
     return retorno;
 }
 
-/* int factorial(int a)
+int factorial(int a)
 {
     int factorial = 1;
+
+    if (a > 12 || a < 0)
+    {
+        factorial = 0;
+    }
 
     for (int x = 1; x <= a; x++)
     {
         factorial = factorial * x;
     }
     return factorial;
-} */
+}
 
-int factorialRecursivo(int n) // se llama a si misma para hacer el factorial  n! = n * (n-1)!
+/*int factorialRecursivo(int n) // se llama a si misma para hacer el factorial  n! = n * (n-1)!
 {
     int factorial = 1;
     if (n > 12 || n < 0)
@@ -139,7 +144,7 @@ int factorialRecursivo(int n) // se llama a si misma para hacer el factorial  n!
     }
 
     return factorial;
-}
+}*/
 
 void activarFlag(int *x)
 {

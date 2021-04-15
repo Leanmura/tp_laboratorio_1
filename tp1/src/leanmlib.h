@@ -75,14 +75,15 @@ int multiplicacion(int a, int b);
 int division(int dividendo, int divisor, float *pResultado);
 
 
-//int factorial(int a);
+
 /** \brief realiza el factorial de un numero entero menor a 13
  *
- * \param n int numero que al cual se le quiere calcular el factorial
+ * \param a int numero que al cual se le quiere calcular el factorial
  * \return int devulve el resultado del factorial
  *
  */
-int factorialRecursivo(int n);
+int factorial(int a);
+//int factorialRecursivo(int n);
 
 
 /** \brief activa un flag
